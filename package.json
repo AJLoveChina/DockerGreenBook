@@ -1,0 +1,27 @@
+{
+  "name": "DockerGreenBook_Vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJLoveChina/DockerGreenBook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJLoveChina/DockerGreenBook/issues"
+  },
+  "homepage": "https://github.com/AJLoveChina/DockerGreenBook#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.47"
+  }
+}
