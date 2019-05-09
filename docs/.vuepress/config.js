@@ -37,6 +37,8 @@ module.exports = {
         sidebar: [
             ["/", "写在前面"],
             ["/install/", "准备/安装"],
+            ["lizi/", "看小栗子之前"],
+            ["mysql/", "Mysql Server安装"],
         ]
     }
 };
