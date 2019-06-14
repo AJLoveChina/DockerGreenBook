@@ -19,7 +19,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        displayAllHeaders: true, // 默认值：false
+        displayAllHeaders: false, // 默认值：false
         nav: [
             {text: 'Github', link: 'https://github.com/AJLoveChina/DockerGreenBook'},
         ],
@@ -39,6 +39,7 @@ module.exports = {
             ["/install/", "准备/安装"],
             ["lizi/", "看小栗子之前"],
             ["mysql/", "Mysql Server安装"],
+            ["jenkins/", "Jenkins服务一键完成"],
         ]
     }
 };
