@@ -40,6 +40,7 @@ module.exports = {
             ["lizi/", "看小栗子之前"],
             ["mysql/", "Mysql Server安装"],
             ["mongo/", "MongoDB数据库安装"],
+            ["mongo-client/", "MongoDB网页版客户端"],
             ["jenkins/", "Jenkins服务一键完成"],
             ["tomcat/", "更优雅的Tomcat"],
             ["wordpress/", "弄个wordpress玩玩吧"],
