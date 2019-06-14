@@ -44,6 +44,7 @@ module.exports = {
             ["jenkins/", "Jenkins服务一键完成"],
             ["tomcat/", "更优雅的Tomcat"],
             ["wordpress/", "弄个wordpress玩玩吧"],
+            ["more/", "更多"],
         ]
     }
 };
