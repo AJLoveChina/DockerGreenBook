@@ -8,11 +8,12 @@ docker run -d -p 8088:8080 --name myjenkins -p 50000:50000 jenkins/jenkins:lts
 ```
 
 ## 依次解释各个参数
-> docker run  : 用docker运行一个容器\
-> -p 8088:8080 将运行容器内部的8080端口桥接到宿主机器（也就是docker所在的机器）的8088端口\
-> --name myjenkins  容器的名字叫做 myjenkins\
-> jenkins/jenkins:lts   使用jenkins/jenkins镜像，本地找不到这个镜像，则从远端DockerHub下载，lts是版本号。
-> -d  让myjenkins这个服务再后台运行
+<v-dockerCmdDesc cmd="docker run -d -p 8088:8080 --name myjenkins -p 50000:50000 jenkins/jenkins:lts"/>
+
+:::tip
+Jenkins这个容器很特殊，它需要暴露俩个端口到外部宿主机器，一般情况我们不用考虑为什么，只要知道我们需要使用的是容器暴露的 8080 服务即可。
+:::
+
 
 ## 接下来测试一下
 我们这里在windows机器上面浏览器打开宿主jenkins看看效果\
@@ -60,5 +61,5 @@ tail -f /var/jenkins_home/secrets/initialAdminPassword
 并且你可以在同一台linux机器上面安装多个版本的jenkins哦，对于开发测试实在是太方便了，有木有？
 
 ## 常见问题
-无
+<v-FAQ />
 

@@ -8,12 +8,10 @@ docker run -p 3306:3306 --name some-mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql
 ```
 
 ## 依次解释各个参数
-> docker run  : 用docker运行一个容器\
-> -p 3306:3306 将运行容器内部的3306端口桥接到宿主机器（也就是docker所在的机器）的3306端口\
-> --name some-mysql  容器的名字叫做 some-mysql\
-> -e MYSQL_ROOT_PASSWORD=123456  指定了mysql server的密码是123456. (默认用户名是root)\
-> -d mysql:5  使用mysql镜像，并且使用5.x版本的mysql，如果本地机器找不到这个镜像，docker会自动从网络下载该镜像
-
+<v-dockerCmdDesc cmd="docker run -p 3306:3306 --name some-mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql:5"/>
+:::tip
+MYSQL_ROOT_PASSWORD=123456  指定了mysql server的密码是123456. (默认用户名是root)
+:::
 
 ## 接下来测试一下
 我们这里在windows机器上面Navicat连接测试一下\
@@ -32,7 +30,5 @@ centos上面查看机器的IP地址的命令是： `ip a`
 并且你可以在同一台linux机器上面安装多个版本的mysql server哦，对于开发测试实在是太方便了，有木有？
 
 ## 常见问题
-1. mysql server连接不成功？
-    * 关闭docker宿主机器开启了防火墙，或者将3306端口加入到白名单。
-    * 千万不能忘记 -p 参数，这个参数决定了docker 容器内部的3306端口服务可以被外部访问
+<v-FAQ />
 

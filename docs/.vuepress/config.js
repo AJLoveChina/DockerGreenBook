@@ -39,6 +39,7 @@ module.exports = {
             ["/install/", "准备/安装"],
             ["lizi/", "看小栗子之前"],
             ["mysql/", "Mysql Server安装"],
+            ["mongo/", "MongoDB数据库安装"],
             ["jenkins/", "Jenkins服务一键完成"],
         ]
     }
