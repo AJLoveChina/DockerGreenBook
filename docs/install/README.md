@@ -46,3 +46,6 @@ docker version
 * [docker 中文文档](https://docs.docker-cn.com/)
 * [docker 官方英文 centos 安装指南 非常nice！](https://docs.docker.com/install/linux/docker-ce/centos/)
 * [使用阿里云镜像源站可能会遇到一些坑，可以参考这篇文章（centos7）](https://yq.aliyun.com/articles/110806)
+
+
+<v-comment/>
