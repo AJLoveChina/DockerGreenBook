@@ -31,6 +31,12 @@ docker start &lt;your container name>   </pre>
                     </li>
                 </ul>
             </li>
+            <li>
+                <p>如果你怎么都尝试不成功，可以试试docker重启大法，这不是开玩笑，非常有效！</p>
+                <pre>
+systemctl stop docker
+systemctl start docker</pre>
+            </li>
         </ol>
     </div>
 </template>
