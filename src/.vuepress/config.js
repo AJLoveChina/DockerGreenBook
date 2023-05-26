@@ -21,7 +21,7 @@ module.exports = {
     themeConfig: {
         displayAllHeaders: true, // 默认值：false
         nav: [
-            {text: 'Docs首页🔫', link: 'http://docs.nigeerhuo.com/'},
+            {text: 'Docs首页🔫', link: 'https://ajlovechina.github.io/DockerGreenBook/'},
             {text: 'Github', link: 'https://github.com/AJLoveChina/DockerGreenBook'},
         ],
         repo: "https://github.com/AJLoveChina/DockerGreenBook",
