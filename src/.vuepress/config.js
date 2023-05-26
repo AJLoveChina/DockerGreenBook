@@ -4,8 +4,8 @@ let assetsPath = path.resolve(__dirname, '../assets');
 module.exports = {
     title: 'Docker绿皮书',
     description: 'Docker指南，Docker Guide book，看完这些小栗子让你认识并爱上Docker！',
-    base: '/docker/',
-    dest: path.resolve(__dirname, "../../docker"),
+    base: '/DockerGreenBook/',
+    dest: path.resolve(__dirname, "../../docs"),
     head: [
         ['link', {rel: 'shortcut icon', type: "image/x-icon", href: '/nigeerhuox16.ico'}],
         ['script', {async : 'async', src: "/baidu-tongji.js"}],
