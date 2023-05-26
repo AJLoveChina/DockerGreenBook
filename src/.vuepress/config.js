@@ -19,7 +19,7 @@ module.exports = {
         }
     },
     themeConfig: {
-        displayAllHeaders: false, // 默认值：false
+        displayAllHeaders: true, // 默认值：false
         nav: [
             {text: 'Docs首页🔫', link: 'http://docs.nigeerhuo.com/'},
             {text: 'Github', link: 'https://github.com/AJLoveChina/DockerGreenBook'},
@@ -38,14 +38,14 @@ module.exports = {
         sidebar: [
             ["/", "写在前面"],
             ["/install/", "准备/安装"],
-            ["lizi/", "看小栗子之前"],
-            ["mysql/", "Mysql Server安装"],
-            ["mongo/", "MongoDB数据库安装"],
-            ["mongo-client/", "MongoDB网页版客户端"],
-            ["jenkins/", "Jenkins服务一键完成"],
-            ["tomcat/", "更优雅的Tomcat"],
-            ["wordpress/", "弄个wordpress玩玩吧"],
-            ["more/", "更多"],
+            ["/lizi/", "看小栗子之前"],
+            ["/mysql/", "Mysql Server安装"],
+            ["/mongo/", "MongoDB数据库安装"],
+            ["/mongo-client/", "MongoDB网页版客户端"],
+            ["/jenkins/", "Jenkins服务一键完成"],
+            ["/tomcat/", "更优雅的Tomcat"],
+            ["/wordpress/", "弄个wordpress玩玩吧"],
+            ["/more/", "更多"],
         ]
     }
 };
